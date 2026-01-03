@@ -1,6 +1,6 @@
 {
   "name": "node-iracing-sdk-types",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "TypeScript definitions for node-iracing-sdk",
   "types": "index.d.ts",
   "license": "GNU GPLv3",
@@ -11,5 +11,9 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richard-ive/node-iracing-sdk.git"
   }
 }

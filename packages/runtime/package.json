@@ -1,6 +1,6 @@
 {
   "name": "node-iracing-sdk",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Node.js bindings for the iRacing SDK client with event-driven telemetry",
   "main": "dist/index.js",
   "gypfile": false,
@@ -27,5 +27,9 @@
     "binding.gyp",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richard-ive/node-iracing-sdk.git"
+  }
 }
