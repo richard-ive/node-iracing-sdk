@@ -15,7 +15,7 @@ npm install node-iracing-sdk
 TypeScript types are published separately:
 
 ```bash
-npm install --save-dev @types/node-iracing-sdk
+npm install --save-dev node-iracing-sdk-types
 ```
 
 ### Prebuilt binaries

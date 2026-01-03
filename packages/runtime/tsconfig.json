@@ -9,7 +9,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-    "types": ["node", "node-iracing-sdk"],
+    "types": ["node", "node-iracing-sdk-types"],
     "declaration": false,
     "sourceMap": false
   },

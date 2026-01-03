@@ -1,7 +1,7 @@
-# @types/node-iracing-sdk
+# node-iracing-sdk-types
 
 TypeScript definitions for the `node-iracing-sdk` package.
 
 ```bash
-npm install --save-dev @types/node-iracing-sdk
+npm install --save-dev node-iracing-sdk-types
 ```

@@ -8,7 +8,7 @@ import type {
   SessionInfoObject,
   SessionUpdate,
   IRacingConstants
-} from 'node-iracing-sdk';
+} from 'node-iracing-sdk-types';
 
 interface NativeBinding {
   constants?: IRacingConstants;

@@ -3,7 +3,7 @@
 This repository is an npm workspace that publishes two packages:
 
 - `node-iracing-sdk` (runtime + prebuilt native binaries)
-- `@types/node-iracing-sdk` (TypeScript definitions)
+- `node-iracing-sdk-types` (TypeScript definitions)
 
 For usage, API details, and build instructions, see `packages/runtime/README.md`.
 
