@@ -1,0 +1,14 @@
+{
+  "name": "node-iracing-sdk-workspace",
+  "version": "0.2.0",
+  "private": true,
+  "workspaces": [
+    "packages/runtime",
+    "packages/types"
+  ],
+  "scripts": {
+    "build": "npm -w node-iracing-sdk run build:clean",
+    "build:js": "npm -w node-iracing-sdk run build:js",
+    "prebuild": "npm -w node-iracing-sdk run prebuild"
+  }
+}

@@ -1,0 +1,4 @@
+packages/runtime/irsdk_1_19/
+node_modules/
+packages/**/node_modules/
+packages/runtime/build/

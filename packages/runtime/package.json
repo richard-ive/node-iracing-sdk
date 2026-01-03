@@ -1,0 +1,31 @@
+{
+  "name": "node-iracing-sdk",
+  "version": "0.2.0",
+  "description": "Node.js bindings for the iRacing SDK client with event-driven telemetry",
+  "main": "dist/index.js",
+  "gypfile": false,
+  "scripts": {
+    "build": "node-gyp rebuild && tsc -p tsconfig.json",
+    "build:clean": "node-gyp clean && node-gyp rebuild && tsc -p tsconfig.json",
+    "build:js": "tsc -p tsconfig.json",
+    "prebuild": "prebuildify --napi --strip",
+    "prepublishOnly": "npm run build:js"
+  },
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "node-gyp-build": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/node-iracing-sdk": "file:../types",
+    "@types/node": "^22.0.0",
+    "prebuildify": "^6.0.0",
+    "typescript": "^5.6.0"
+  },
+  "files": [
+    "dist",
+    "prebuilds",
+    "binding.gyp",
+    "README.md",
+    "LICENSE"
+  ]
+}
