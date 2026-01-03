@@ -3,13 +3,17 @@
     "target": "ES2023",
     "module": "CommonJS",
     "moduleResolution": "Node",
+    "baseUrl": ".",
+    "paths": {
+      "node-iracing-sdk-types": ["../types/index.d.ts"]
+    },
     "rootDir": "src",
     "outDir": "dist",
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-    "types": ["node", "node-iracing-sdk-types"],
+    "types": ["node"],
     "declaration": false,
     "sourceMap": false
   },
