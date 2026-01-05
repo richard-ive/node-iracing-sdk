@@ -1,3 +1,7 @@
+# node-iracing-sdk
+
+Node.js bindings for the iRacing SDK client with event-driven telemetry, session parsing, broadcast controls, prebuilt Windows binaries, and separate TypeScript types for native addon builds.
+
 # node-iracing-sdk workspace
 
 This repository is an npm workspace that publishes two packages:
